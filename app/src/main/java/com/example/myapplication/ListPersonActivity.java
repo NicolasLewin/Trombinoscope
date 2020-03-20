@@ -4,13 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.ListView;
-import android.widget.TextView;
-
-
 
 import com.example.myapplication.DAO.IPersonDAO;
 import com.example.myapplication.DAO.PersonDAOData;
-import com.example.myapplication.DTO.Person;
 
 public class ListPersonActivity extends AppCompatActivity {
 
