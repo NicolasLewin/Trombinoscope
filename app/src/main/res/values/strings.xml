@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="afficher">Afficher Trombi</string>
+    <string name="last_name" > NOM </string>
+    <string name="name" > PRENOM </string>
+    <string name="register" > AJOUTER UNE PERSONNE </string>
+
+
+</resources>
