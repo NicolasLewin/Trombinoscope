@@ -37,9 +37,12 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View view) {
                         Toast.makeText(getApplicationContext(), "Ajout ok", Toast.LENGTH_LONG).show();
+                        Intent activityChangeIntent = new Intent(MainActivity.this, RegisterPersonActivity.class);
+                        MainActivity.this.startActivity(activityChangeIntent);
                     }
                 }
         );
+
 
     }
 }

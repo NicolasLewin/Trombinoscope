@@ -11,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".ListPersonActivity"></activity>
+        <activity android:name=".RegisterPersonActivity"></activity>
+
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,16 +23,6 @@
         </activity>
     </application>
 
-    <service android:name="FastInputIME"
-        android:label="@string/fast_input_label"
-        android:permission="android.permission.BIND_INPUT_METHOD"
-        tools:ignore="WrongManifestParent">
-        <intent-filter>
-            <action android:name="android.view.InputMethod" />
-        </intent-filter>
-        <meta-data android:name="android.view.im"
-            android:resource="@xml/method" />
-    </service>
 
 
 </manifest>
